@@ -3,9 +3,10 @@ import GlobalStyle from "./components/GlobalStyle";
 
 function App() {
   return (
-    <div className="App">
-      안녕하세요
-    </div>
+    <>
+      <GlobalStyle />
+      <div className="App">안녕하세요</div>
+    </>
   );
 }
 

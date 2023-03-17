@@ -5,7 +5,8 @@ import reset from "styled-reset";
 const GlobalStyle = createGlobalStyle`
 ${reset}
   html {
-    
+    box-sizing: border-box;
+    font-size: 62.5%;
   }
 `;
 
